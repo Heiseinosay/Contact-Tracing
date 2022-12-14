@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ContactTracing
+</name>
+</assembly>
+<members>
+<member name="T:ContactTracing.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ContactTracing.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ContactTracing.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ContactTracing.My.Resources.Resources.RobloxScreenShot20221208_135345497">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet.tblAdminsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet.tblAdminsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet.tblAdminsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSetTableAdapters.tblAdminsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ContactTracing.contactTracingDB1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ContactTracing.contactTracingDB1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ContactTracing.contactTracingDB1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.UpdateAll(ContactTracing.contactTracingDB1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1.PersonsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1.PersonsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1.PersonsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1TableAdapters.PersonsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ContactTracing.contactTracingDB1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ContactTracing.contactTracingDB1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ContactTracing.contactTracingDB1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.UpdateAll(ContactTracing.contactTracingDB1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ContactTracing.contactTracingDB1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
